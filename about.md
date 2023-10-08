@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sobre mim
-subtitle: Ana Carolina Sousa Dias
 permalink: /about/
 ---
 
