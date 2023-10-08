@@ -3,7 +3,7 @@
         <a href="/" class="logo">{{ site.title }}</a>
 
         <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">Sobre</a></li>
             <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
         </ul>
     </div>
@@ -15,9 +15,9 @@
             </a>
         {% endif %}
 
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
+        {% if site.author.instagram %}
+            <a href="https://instagram.com/{{ site.author.instagram }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-instagram"></i>
             </a>
         {% endif %}
     </ul>
