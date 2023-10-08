@@ -1,18 +1,15 @@
 # Site settings
-title: Daktilo
+title: Ana Carolina Dias
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Um pouco sobre minhas pesquisas em Tecnologia e Sociedade, livros que li e reflexões sobre minhas experiências.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://linasdias.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
-  googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
-  twitter: electrik_frog
+  fullname: Ana Carolina Dias
+  instagram: https://www.instagram.com/linasdias
+  github: linasdias
   # disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
