@@ -1,8 +1,8 @@
-- slug: design
-  name: Design
+- slug: gi
+  name: Governança da Internet
 
-- slug: tools
-  name: Tools
+- slug: produtividade
+  name: Produtividade
 
-- slug: productivity
-  name: Productivity
+  - slug: mais
+  name: Etc.
