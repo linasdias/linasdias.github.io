@@ -17,11 +17,7 @@ date_format:        "%B %-d, %Y" # refer to http://shopify.github.io/liquid/filt
 uploads:            /uploads/ # Path to post content assets directory i.e post images, pdfs etc
 paginate:           7 # Number of posts displayed on blog page
 paginate_path:      "/blog/:num/" # Blog path
-google_analytics:   # Google analytics code, get your code here https://www.google.com/analytics/
-disqus:
-  shortname:        # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken: 
 
 footer:             # Default footer image settings
   copyright:        Ana Carolina Dias, 2024.
@@ -50,7 +46,7 @@ social_networks:
 
 # Strings
 strings:
-  author_by:        By
+  author_by:        Por
 
 # Build settings
 markdown:           kramdown

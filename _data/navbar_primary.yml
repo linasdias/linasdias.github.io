@@ -5,32 +5,19 @@ center:
   - title: Home
     url: /
 
-  - title: All Posts
+  - title: Blog
     url: /blog/
 
-  - title: Business
-    url: /category/business/
+  - title: Internet
+    url: /category/internet/
 
   - title: Culture
     url: /category/culture/
 
-  - title: Travel
-    url: /category/travel/
+  - title: Viagem
+    url: /category/viagem/
 
-  - title: Sport
-    url: /category/sport/
-
-  - title: Pages
-    dropdown:
-      - title: Blog
-        url: /blog/
-      - title: Contact
-        url: /contact/
-      - title: Sidebar Left
-        url: /sidebar-left/
-      - title: Sidebar Right
-        url: /sidebar-right/
-      - title: 404
-        url: /404/
+  - title: Design
+    url: /category/design/
 
 right:

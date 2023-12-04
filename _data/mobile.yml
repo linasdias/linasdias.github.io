@@ -5,20 +5,17 @@
 - title: Blog
   url: /blog/
 
-- title: Business
-  url: /category/business/
+- title: Internet
+  url: /category/internet/
 
 - title: Culture
   url: /category/culture/
 
-- title: Travel
-  url: /category/travel/
+- title: Viagem
+  url: /category/viagem/
 
-- title: Sport
-  url: /category/sport/
+- title: Design
+  url: /category/design/
 
-- title: Contact
-  url: /contact/
-  
 - title: 404
   url: /404/

@@ -1,4 +1,4 @@
 ---
-tag: travel
-permalink: "/category/travel/"
+tag: viagem
+permalink: "/category/viagem/"
 ---
