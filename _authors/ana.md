@@ -2,9 +2,8 @@
 title:          Ana Carolina Dias
 username:       ana
 default:        true
-image:          https://pbs.twimg.com/profile_images/974603248119222272/N5PLzyan.jpg
+image:          ana.png
 bio:            Designer, pesquisadora e poliglota nas horas vagas.
-email:          carolinadias4567@gmail.com
 instagram:      https://www.instagram.com/linasdias
 linkedin:       https://www.linkedin.com/in/linasdias
 pinterest:      https://www.pinterest.com/linasdias

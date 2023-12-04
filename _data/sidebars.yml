@@ -1,22 +1,22 @@
 # Page sidebar widgets
 page:
   - widget: recent
-    title: RECENT ARTICLES
+    title: POSTS RECENTES
     count: 8
 
   - widget: categories
-    title: CATEGORIES
+    title: CATEGORIAS
     count: 5
 
     
 # Footer sidebar widgets
 footer:
   - widget: recent
-    title: RECENT POSTS
+    title: POSTS RECENTES
     count: 3
 
   - widget: categories
-    title: CATEGORIES
+    title: CATEGORIAS
     count: 4
 
   - widget: about
