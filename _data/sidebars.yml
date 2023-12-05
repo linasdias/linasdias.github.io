@@ -17,7 +17,7 @@ footer:
 
   - widget: categories
     title: CATEGORIAS
-    count: 4
+    count: 5
 
   - widget: about
     # content: Content of some sort..
