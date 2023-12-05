@@ -1,6 +1,6 @@
 ---
 title: A experiência - FIB13 e Governança da Internet no Brasil em 2023
-image: https://source.unsplash.com/UOxMPRPUTOA/1000x750
+image: postimg/uber.png
 categories: [internet]
 tag: [gi]
 author: ana

@@ -1,6 +1,6 @@
 ---
 title: Comentários sobre Cartagena das Índias e o YouthLACIGF 2023
-image: https://source.unsplash.com/wawEfYdpkag/1000x750
+image: postimg/cartagena.png
 categories: [internet]
 tag: [gi]
 author: ana
