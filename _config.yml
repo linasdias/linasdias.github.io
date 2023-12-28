@@ -6,7 +6,7 @@
 
 # Site settings
 title:              Ana Carolina Dias
-description:        UX design, governança da internet e hobbies.
+description:        Design, governança da internet e hobbies.
 url:                # Site base hostname & protocol, e.g. http://example.com
 baseurl:            "" # Site subpath, e.g. /blog
 logo_image:
