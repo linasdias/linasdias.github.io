@@ -2,22 +2,26 @@
 left:
 
 center:
-  - title: Home
-    url: /
+- title: Me
+  url: /authors/ana/
 
-  - title: Sobre mim
-    url: /authors/ana/
+  - title: Blog
+    dropdown:
+      - title: All posts
+        url: /
+      - title: Internet
+        url: /internet
+      - title: Cultura
+        url: /cultura
+      - title: Lifestyle
+        url: /lifestyle
+      - title: Idiomas
+        url: /idiomas
 
-  - title: Internet
-    url: /category/internet/
+- title: Resume
+  url: /resume
 
-  - title: Cultura
-    url: /category/cultura/
-
-  - title: Viagem
-    url: /category/viagem/
-
-  - title: Design
-    url: /category/design/
+- title: Portfolio
+  url: /portfolio
 
 right:

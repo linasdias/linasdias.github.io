@@ -1,21 +1,23 @@
 # Mobile menu navigation links
-- title: Home
-  url: /
 
-- title: Sobre mim
+- title: Me
   url: /authors/ana/
 
-- title: Internet
-  url: /category/internet/
+  - title: Blog
+    dropdown:
+      - title: All posts
+        url: /
+      - title: Internet
+        url: /internet
+      - title: Cultura
+        url: /cultura
+      - title: Lifestyle
+        url: /lifestyle
+      - title: Idiomas
+        url: /idiomas
 
-- title: Cultura
-  url: /category/cultura/
+- title: Resume
+  url: /resume
 
-- title: Viagem
-  url: /category/viagem/
-
-- title: Design
-  url: /category/design/
-
-- title: 404
-  url: /404/
+- title: Portfolio
+  url: /portfolio
