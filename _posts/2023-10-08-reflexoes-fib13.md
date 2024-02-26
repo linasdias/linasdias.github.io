@@ -2,7 +2,7 @@
 layout: post
 title: A experiência - FIB13 e Governança da Internet no Brasil em 2023
 date: 2023-10-08 16:00:00
-description: "Disclaimer: contém opiniões próprias* e um "textão"."
+description: "Disclaimer: contém opiniões próprias* e um 'textão'."
 tags: governanca-internet
 categories: internet
 ---
