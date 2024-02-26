@@ -1,71 +1,96 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ana Carolina Dias",
+    "label": "Estudante de ML & Pesquisadora em Responsible Tech",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ana.carolina@lapin.org.br",
+    "url": "https://linasdias.github.io",
+    "summary": "Cientista da computação interessada em pesquisar sobre a promoção e o desenvolvimento do uso responsável de tecnologias.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Teresina",
+      "countryCode": "BR",
+      "region": "Piauí"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Instagram",
+        "username": "linasdias",
+        "url": "https://instagram.com/linasdias"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Instituto de Estudos Avançados, Universidade de São Paulo",
+      "position": "Pesquisadora em IA Responsável",
+      "url": "http://www.iea.usp.br/pesquisa/catedras-e-convenios/catedra-oscar-sala/titular-catedra/virgilio-almeida/Chamada2023dePesquisadoresdaCtedraOscarSalarev.docx.pdf",
+      "startDate": "2023-11-01",
+      "summary": "Grupo de pesquisa organizado pela Cátedra Oscar Sala, sob orientação do Prof. Dr. Virgílio Almeida, explorando como a sociedade civil e a comunidade científica poderão intervir para que a IA seja implementada de maneira consciente.",
+      "highlights": ["IA Responsável"]
+    },
+    {
+      "name": "Laboratório de Políticas Públicas e Internet",
+      "position": "Pesquisadora multidisciplinar",
+      "url": "http://lapin.org.br",
+      "startDate": "2023-10-01",
+      "summary": "Grupo de pesquisa e políticas públicas do LAPIN, think tank pioneiro sem fins lucrativos dedicado à política digital com sede na capital brasileira.",
+      "highlights": ["IA", "Desinformação", "Economia Digital", "Governança de Dados", "Vigilância"]
+    },
+    {
+      "name": "Coletivo de Pesquisa e Ativismo de Rondônia em Tecnologia, Estado e Sociedade",
+      "position": "Pesquisadora multidisciplinar",
+      "url": "http://instagram.com/coletivo_partes",
+      "startDate": "2023-09-01",
+      "summary": "Coletivo de pesquisa e ativismo focado em questões como segurança, criptografia, IA e inclusão digital no Norte do país. Treinamento em pesquisa e metodologia científica.",
+      "highlights": ["Governança da Internet", "Sustentabilidade"]
+    },
+    {
+      "name": "Tribunal de Justiça do Estado do Piauí",
+      "position": "Estagiária em Informática",
+      "url": "http://tjpi.jus.br",
+      "startDate": "2023-06-15",
+      "summary": "Aprovada em concurso de seleção pública, em 2º lugar.",
+      "highlights": ["Web", "Dados", "Ruby on Rails", "Python"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Dorothy Piauí",
+      "position": "Diretora de Extensão",
+      "url": "https://instagram.com/dorothypiaui",
+      "startDate": "2023-06-01",
+      "summary": "Direção da equipe de atividades de extensão do Dorothy Piauí, projeto parceiro do Meninas Digitais, da Sociedade Brasileira de Computação.",
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Universidade Federal do Piauí",
+      "location": "Teresina-PI",
+      "url": "https://ufpi.br/",
+      "area": "Ciência da Computação",
+      "studyType": "Bacharelado",
+      "startDate": "2019-01-01",
+      "endDate": "2025-07-01",
+      "courses": ["Engenharia de Software", "Bancos de Dados", "Redes de Computadores", "Álgebra Linear"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Bolsa - Programa Youth CGI.br 2023",
+      "date": "2023-05-01",
+      "awarder": "Comitê Gestor da Internet do Brasil",
+      "url": "https://forumdainternet.cgi.br/youth",
+      "summary": "Programa de capacitação sobre Governança da Internet, fomentando a participação nos Fóruns da Governança da Internet, especialmente no FIB - Fórum da Internet no Brasil, no LAC-IGF - Fórum de Governança da Internet da América Latina e Caribe, e no IGF - Internet Governance Forum."
+    },
+    {
+      "title": "Bolsa - Programa Youth CGI.br 2020",
+      "date": "2020-05-01",
+      "awarder": "Comitê Gestor da Internet do Brasil",
+      "url": "https://forumdainternet.cgi.br/youth",
+      "summary": "Programa de capacitação sobre Governança da Internet, fomentando a participação nos Fóruns da Governança da Internet, especialmente no FIB - Fórum da Internet no Brasil, no LAC-IGF - Fórum de Governança da Internet da América Latina e Caribe, e no IGF - Internet Governance Forum."
     }
   ],
+  /*
   "certificates": [
     {
       "name": "Machine Learning",
@@ -87,52 +112,19 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
+*/
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "O que Unmasking AI nos ensina sobre nossa reação a sistemas falhos de reconhecimento facial?",
+      "publisher": "LAPIN",
+      "releaseDate": "2024-02-23",
+      "url": "https://lapin.org.br/2024/02/23/o-que-unmasking-ai-nos-ensina-sobre-nossa-reacao-a-sistemas-falhos-de-reconhecimento-facial/",
+      "summary": "No documentário Coded Bias (Netflix), de 2020, conhecemos a pesquisadora e ativista Joy Buolamwini, que fundou a Algorithmic Justice League (Liga da Justiça Algorítmica), organização engajada em conscientizar a população dos perigos de sistemas de Inteligência Artificial (IA) enviesados. Em 2023, ela lançou sua biografia Unmasking AI, que se tornou uma referência na atual discussão sobre fairness."
     }
   ],
+/*
   "skills": [
     {
       "name": "Physics",
@@ -148,32 +140,57 @@
       ]
     }
   ],
+*/
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Português",
+      "fluency": "Nativo",
+      "icon": "💖"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "💖"
+    },
+    {
+      "language": "Español",
+      "fluency": "Intermediario",
+      "icon": "💓"
+    },
+    {
+      "language": "Français",
+      "fluency": "Intermédiaire",
+      "icon": "💓"
+    },
+    {
+      "language": "中文",
+      "fluency": "基本 (HSK1)",
+      "icon": "❤️"
+    },
+    {
+      "language": "日本語",
+      "fluency": "基本的な",
+      "icon": "❤️"
+    },
+    {
+      "language": "한국어",
+      "fluency": "기초의",
+      "icon": "❤️"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Tecnologia Responsável",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Inteligência Artificial",
+        "Machine Learning",
+        "Internet",
+        "Computação Criativa"
       ]
     }
   ],
+/*
   "references": [
     {
       "name": "Professor John Doe",
@@ -186,6 +203,7 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
+
   "projects": [
     {
       "name": "Quantum Computing",
@@ -196,4 +214,5 @@
       "url": "https://example.com"
     }
   ]
+*/
 }
