@@ -1,0 +1,11 @@
+<!-- _layouts/post.html -->
+---
+layout: default
+---
+<div id="content-morango">
+    <article>
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.date | date: "%B %d, %Y" }}</p>
+        {{ content }}
+    </article>  
+</div>
