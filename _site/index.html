@@ -1,12 +1,41 @@
----
-layout: default
-title: Ana Carolina Dias
-permalink: /
----
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\assets\css\main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ana Carolina Dias</title>
+</head>
+<body>
+    <!-- Include the header -->
+    <!-- _includes/header.html -->
+<script src="https://kit.fontawesome.com/87281a04ac.js" crossorigin="anonymous"></script>
+
+<header>
+    <nav>
+        <ul>
+            <li><a id="headlink" href="/">Home</a></li>
+            <li><a id="headlink" href="/blog">Blog</a></li>
+            <li><a id="headlink" href="/about">About</a></li>
+        </ul>
+    </nav>
+    <div class="row-align-items-stretch">
+        <button class="btn btn-primary btn-circle"><i class="fa fa-youtube"></i></button>
+        <button class="btn btn-primary btn-circle"><i class="fa fa-linkedin"></i></button>
+        <button class="btn btn-primary btn-circle"><i class="fa fa-instagram"></i></button>
+    </div>
+</header>
+
+
+    <!-- Page content -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
 
 <div class="content-morango">
 
@@ -21,7 +50,7 @@ permalink: /
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="" /></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/">Consulta Pública: Sandbox Regulatório de IA da ANPD</a>
@@ -32,7 +61,7 @@ permalink: /
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="" /></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="#">Project Two</a>
@@ -44,7 +73,7 @@ permalink: /
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="" /></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://forumdainternet.cgi.br/agenda/3033">Relatoria: Moldando o Futuro Digital - IoT para Preservação Ecológica [FIB14]</a>
@@ -67,3 +96,11 @@ permalink: /
 </div>
 
 
+
+    <!-- Include the footer -->
+    <!-- _includes/footer.html -->
+<footer>
+    <p>This is a footer description for your blog/portfolio.</p>
+</footer>
+</body>
+</html>

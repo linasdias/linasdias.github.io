@@ -91,4 +91,9 @@ footer {
   bottom: 0;
   width: 100%; }
 
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blog
+title: Ana Carolina Dias | Blog
+permalink: /blog
 ---
 
 <div class="content-morango">

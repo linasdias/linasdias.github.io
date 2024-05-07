@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: Ana Carolina Dias | About
+permalink: /about
 ---
 
 <div class="content-morango">
