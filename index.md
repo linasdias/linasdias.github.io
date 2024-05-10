@@ -4,10 +4,6 @@ title: Ana Carolina Dias
 permalink: /
 ---
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
-
 <div class="content-morango">
 
 <!-- Page Content -->
@@ -21,7 +17,7 @@ permalink: /
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#" src="https://github.com/linasdias/linasdias.github.io/blob/main/assets/img/4.png"><img class="card-img-top" alt=""></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/">Consulta Pública: Sandbox Regulatório de IA da ANPD</a>
@@ -32,19 +28,18 @@ permalink: /
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#" src="https://github.com/linasdias/linasdias.github.io/blob/main/assets/img/5.png" alt=""></a>
             <div class="card-body">
             <h4 class="card-title">
-                <a href="#">Project Two</a>
+                <a href="http://www.iea.usp.br/pesquisa/catedras-e-convenios/catedra-oscar-sala/titular-catedra/virgilio-almeida/grupo-de-estudos-ia-responsavel">Integrante do Grupo de Estudos IA Responsável (2023/2024) - IEA/USP</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod
-                odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">O foco das investigações e trocas acadêmicas durante o período da Cátedra é compreender como os sistemas de inteligência artificial e seus designs operam e influenciam decisões e visões sobre o mundo em suas mais diversas esferas, desde a saúde, trabalho, educação, arte, cultura e identidades.</p>
             </div>
         </div>
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="https://github.com/linasdias/linasdias.github.io/blob/main/assets/img/6.png" alt=""></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://forumdainternet.cgi.br/agenda/3033">Relatoria: Moldando o Futuro Digital - IoT para Preservação Ecológica [FIB14]</a>

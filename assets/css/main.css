@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1, h2, h3 {
   font-family: 'Elsie', serif;
   color: #a3b18a;
@@ -92,8 +93,18 @@ footer {
   width: 100%; }
 
 .btn-circle {
+  display: block;
   width: 45px;
   height: 45px;
-  border-radius: 100%; }
+  border-radius: 50%;
+  background-color: #e38b5e;
+  /* Cor de fundo do botão */
+  border-color: transparent;
+  /* Cor da borda do botão */
+  color: #ead5b3;
+  /* Cor do texto */ }
+
+.row {
+  display: inline-flex !important; }
 
 /*# sourceMappingURL=main.css.map */

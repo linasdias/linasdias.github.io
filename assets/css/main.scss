@@ -114,7 +114,15 @@ footer {
 }
 
 .btn-circle {
+  display: block;
   width: 45px;
   height: 45px;
-  border-radius: 100%;
+  border-radius: 50%;
+  background-color: #e38b5e; /* Cor de fundo do botão */
+  border-color: transparent; /* Cor da borda do botão */
+  color: #ead5b3; /* Cor do texto */
+}
+
+.row {
+  display: inline-flex !important;
 }
