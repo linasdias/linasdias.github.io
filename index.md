@@ -17,7 +17,7 @@ permalink: /
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <img src="assets/img/4.png" />
+            <img src="assets/img/5.png" />
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/">Consulta Pública: Sandbox Regulatório de IA da ANPD</a>
@@ -28,7 +28,7 @@ permalink: /
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <img class="card-img-top" src="assets/img/5.png" />
+            <img class="card-img-top" src="assets/img/6.png" />
             <div class="card-body">
             <h4 class="card-title">
                 <a href="http://www.iea.usp.br/pesquisa/catedras-e-convenios/catedra-oscar-sala/titular-catedra/virgilio-almeida/grupo-de-estudos-ia-responsavel">Integrante do Grupo de Estudos IA Responsável (2023/2024) - IEA/USP</a>
@@ -39,7 +39,7 @@ permalink: /
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <img class="card-img-top" src="assets/img/6.png" />
+            <img class="card-img-top" src="assets/img/4.png" />
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://forumdainternet.cgi.br/agenda/3033">Relatoria: Moldando o Futuro Digital - IoT para Preservação Ecológica [FIB14]</a>
