@@ -4,6 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Audio player HTML5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="\assets\css\AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 700px;
+        height: 500px;
+        border: solid 1px gray;
+    }
+    </style>
+  </head>
     <link rel="stylesheet" href="\assets\css\main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -46,6 +62,27 @@
     <!-- _includes/footer.html -->
 <footer>
     <p>This is a footer description for your blog/portfolio.</p>
+    <!-- Audio player container-->
+    <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="\assets\js\AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : false,
+            notification: false,
+            playList: [
+                {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
 </footer>
 </body>
 </html>

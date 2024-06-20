@@ -11,7 +11,7 @@ permalink: /
 
     <!-- Page Heading -->
     <h2>Projetos
-        <small>e contribuições</small>
+        <small>& contributions</small>
     </h2>
 
     <div class="row">
@@ -56,9 +56,34 @@ permalink: /
 </div>
 
 <div class="content-moragua">
-</div>
 
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">Últimos posts
+      <small>from the blog</small>
+    </h1>
+
+    {% for post in site.posts limit:2 %}
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 style="text-align:left">{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p> <button type="button" name="buttonMorango"><a href="https://linasdias.github.io{{ post.url }}">Ler mais</a></button>
+        </div>
+      </div>
+
+      <hr>
+    {% endfor %}
+
+</div>
+<!--
 <div class="content-agua">
 </div>
-
+-->
 
