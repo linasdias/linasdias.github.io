@@ -21,7 +21,7 @@ permalink: /blog
 <div class="content-moragua">
     <h3>Postagens recentes</h3>
     <ul id="posts">
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:10 %}
         <li>
             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             <p>{{ post.excerpt }}</p>
