@@ -65,16 +65,16 @@ permalink: /
       <small>from the blog</small>
     </h1>
 
-    {% for post in site.posts limit:2 %}
+    {% for post in site.posts limit:3 %}
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x200">
           </a>
         </div>
         <div class="col-md-5">
-          <h3 style="text-align:left">{{ post.title }}</h3>
-          <p>{{ post.excerpt }}</p> <button type="button" name="buttonMorango"><a href="https://linasdias.github.io{{ post.url }}">Ler mais</a></button>
+          <a href="https://linasdias.github.io{{ post.url }}"><h3 style="text-align:left">{{ post.title }}</h3></a>
+          <p>{{ post.excerpt }}</p>
         </div>
       </div>
 

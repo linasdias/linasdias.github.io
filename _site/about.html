@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Audio player HTML5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -48,6 +47,12 @@
         <button class="btn-circle"><i class="fa fa-linkedin"></i></button>
         <button class="btn-circle"><i class="fa fa-instagram"></i></button>
     </div>
+
+    <div class="container" style="margin-top: 200px;">
+        <a href="https://linasdias.github.io"><img src="/assets/img/logo.png" alt="Ana Carolina"></a>
+    </div>
+    
+    
 </header>
 
 
@@ -61,28 +66,36 @@
     <!-- Include the footer -->
     <!-- _includes/footer.html -->
 <footer>
-    <p>This is a footer description for your blog/portfolio.</p>
-    <!-- Audio player container-->
-    <div id='player'></div>
+    <div class="content-agua">
+        <p>Ana Carolina, 2024.</p>
+        <div class="row align-items-center">
+            <button class="btn-circle"><i class="fa fa-youtube"></i></button>
+            <button class="btn-circle"><i class="fa fa-linkedin"></i></button>
+            <button class="btn-circle"><i class="fa fa-instagram"></i></button>
+        </div>
 
-    <!-- Audio player js begin-->
-    <script src="\assets\js\AudioPlayer.js"></script>
+        <!-- Audio player container-->
+        <div id='player' style='position:fixed;'></div>
 
-    <script>
-        // test image for web notifications
-        var iconImage = null;
+        <!-- Audio player js begin-->
+        <script src="\assets\js\AudioPlayer.js"></script>
 
-        AP.init({
-            container:'#player',//a string containing one CSS selector
-            volume   : 0.7,
-            autoPlay : false,
-            notification: false,
-            playList: [
-                {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
-          ]
-        });
-    </script>
-    <!-- Audio player js end-->
+        <script>
+            // test image for web notifications
+            var iconImage = null;
+
+            AP.init({
+                container:'#player',//a string containing one CSS selector
+                volume   : 0.7,
+                autoPlay : false,
+                notification: false,
+                playList: [
+                    {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
+            ]
+            });
+        </script>
+        <!-- Audio player js end-->
+    </div>
 </footer>
 </body>
 </html>

@@ -34,7 +34,8 @@ header {
   height: 50vw;
   width: 100%;
   text-align: center;
-  color: #fdf0d5; }
+  color: #fdf0d5;
+}
 
 a {
   text-decoration: none;
@@ -49,8 +50,6 @@ a:link, a:visited, a:hover, a:active {
 #headlink {
   color: #fdf0d5; }
 
-nav {
-  margin-top: 20px; }
 
 ul {
   list-style-type: none;
@@ -77,7 +76,7 @@ ul li {
   width: 100%; }
 
 .content-agua {
-  background-color: #669bbc;
+  background-color: #003049;
   color: #fdf0d5;
   text-align: center;
   padding: 20px;
@@ -108,7 +107,7 @@ footer {
   display: inline-flex !important; }
 
 
- button {
+ .buttonMorango {
   color: #ffff00 !important;
   background-color: #c1121f;
   font-size: 19px;
@@ -117,7 +116,7 @@ footer {
   cursor: pointer
 }
 
-button:hover {
+.buttonMorango:hover {
   color: #f59992 !important;
   background-color: #43a435;
 }

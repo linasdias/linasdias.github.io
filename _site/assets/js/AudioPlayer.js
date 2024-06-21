@@ -64,7 +64,7 @@
       // Player vars
       var
       player,
-      imageDiv,
+//      imageDiv,
       playBtn,
       prevBtn,
       nextBtn,
@@ -110,6 +110,7 @@
         player = create('div', {
           'className': 'ap',
           'id': 'ap',
+          'style': 'position: fixed;',
           'innerHTML': aphtml
         });
     
@@ -154,10 +155,10 @@
         prevBtn.addEventListener('click', prev, false);
         nextBtn.addEventListener('click', next, false);
     
-        imageDiv = create('div', {
-          'className': 'ap-image'
-        })
-        player.parentNode.appendChild(imageDiv)
+//        imageDiv = create('div', {
+//          'className': 'ap-image'
+//        })
+//        player.parentNode.appendChild(imageDiv)
     
         apActive = true;
     
@@ -306,13 +307,13 @@
           }
           plLi[current].classList.add('pl-current');
     
-          imageDiv.innerHTML = ''
-          if (playList[current].icon) {
-        let image = create('img', {
-          src: playList[current].icon
-        })
-        imageDiv.appendChild(image)
-          }
+//          imageDiv.innerHTML = ''
+//          if (playList[current].icon) {
+//        let image = create('img', {
+//          src: playList[current].icon
+//        })
+//        imageDiv.appendChild(image)
+//          }
         }
     
     
@@ -339,7 +340,7 @@
         document.title = trackTitle.innerHTML = playList[index].title;
         audio.play();
         notify(playList[index].title, {
-          icon: playList[index].icon,
+          //icon: playList[index].icon,
           body: 'Now playing',
           tag: 'music-player'
         });
@@ -407,7 +408,7 @@
         if(audio.paused) {
           audio.play();
           notify(playList[index].title, {
-            icon: playList[index].icon,
+            //icon: playList[index].icon,
             body: 'Now playing'
           });
           this.classList.add('playing');
