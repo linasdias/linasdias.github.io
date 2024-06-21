@@ -34,7 +34,9 @@ header {
   height: 50vw;
   width: 100%;
   text-align: center;
-  color: #fdf0d5; }
+  color: #fdf0d5;
+  padding-top: 40px;
+}
 
 a {
   text-decoration: none;
@@ -50,7 +52,8 @@ a:link, a:visited, a:hover, a:active {
   color: #fdf0d5; }
 
 nav {
-  margin-top: 20px; }
+  
+}
 
 ul {
   list-style-type: none;
