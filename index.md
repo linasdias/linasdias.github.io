@@ -17,7 +17,7 @@ permalink: /
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card h-100">
-            <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/"><img src="assets/img/5.png" /></a>
+            <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/"><img style="width: 348px; length: 198.85px;" src="assets/img/5.png" /></a>
             <div class="card-body">
             <h4 class="card-title">
                 <a href="https://lapin.org.br/2024/03/20/contribuicao-a-consulta-da-autoridade-nacional-de-protecao-de-dados-anpd-sobre-sandbox-regulatorio-de-inteligencia-artificial-e-protecao-de-dados-no-brasil/">Consulta Pública: Sandbox Regulatório de IA da ANPD</a>

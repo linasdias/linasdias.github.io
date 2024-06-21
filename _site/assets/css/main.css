@@ -107,18 +107,4 @@ footer {
   display: inline-flex !important; }
 
 
- .buttonMorango {
-  color: #ffff00 !important;
-  background-color: #c1121f;
-  font-size: 19px;
-  border: 2px solid #43a435;
-  padding: 15px 50px;
-  cursor: pointer
-}
-
-.buttonMorango:hover {
-  color: #f59992 !important;
-  background-color: #43a435;
-}
-
 /*# sourceMappingURL=main.css.map */
