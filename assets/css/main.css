@@ -108,3 +108,7 @@ footer {
 
 
 /*# sourceMappingURL=main.css.map */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: green !important;
+}
