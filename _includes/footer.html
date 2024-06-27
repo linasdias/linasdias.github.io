@@ -1,33 +1,9 @@
 <!-- _includes/footer.html -->
 <footer>
-    <div class="content-agua">
         <p>Ana Carolina, 2024.</p>
         <div class="row align-items-center">
             <a href="https://www.youtube.com/channel/UCzdN_GOPp7SFm6Yp7L2qvTg"><button class="btn-circle"><i class="fa fa-youtube"></i></button></a>
             <a href="https://linkedin.com/in/linasdias"><button class="btn-circle"><i class="fa fa-linkedin"></i></button></a>
             <a href="https://instagram.com/linasdias"><button class="btn-circle"><i class="fa fa-instagram"></i></button></a>
         </div>
-
-        <!-- Audio player container-->
-        <div id='player' style='position:fixed;'></div>
-
-        <!-- Audio player js begin-->
-        <script src="{{ site.baseurl }}\assets\js\AudioPlayer.js"></script>
-
-        <script>
-            // test image for web notifications
-            var iconImage = null;
-
-            AP.init({
-                container:'#player',//a string containing one CSS selector
-                volume   : 0.7,
-                autoPlay : false,
-                notification: false,
-                playList: [
-                    {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
-            ]
-            });
-        </script>
-        <!-- Audio player js end-->
-    </div>
 </footer>

@@ -43,4 +43,26 @@
     <!-- Include the footer -->
     {% include footer.html %}
 </body>
+
+<!-- Audio player container-->
+<div id='player' style='position:fixed;'></div>
+
+<!-- Audio player js begin-->
+<script src="{{ site.baseurl }}\assets\js\AudioPlayer.js"></script>
+
+<script>
+    // test image for web notifications
+    var iconImage = null;
+
+    AP.init({
+        container:'#player',//a string containing one CSS selector
+        volume   : 0.7,
+        autoPlay : false,
+        notification: false,
+        playList: [
+            {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
+    ]
+    });
+</script>
+<!-- Audio player js end-->
 </html>

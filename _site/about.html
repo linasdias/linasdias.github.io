@@ -59,86 +59,70 @@
 
     <!-- Page content -->
     <div class="content-morango">
-    <h2>About</h2>
-    <p>This is the about page content.</p>
-  
-      
-<div class="container-fluid p-0 overflow-hidden">
-	<div class="row flex-lg-row-reverse g-0 align-items-center">
-		<div class="col-lg-6">
-			<div class="lc-block">
-				<img class="w-100" src="https://images.unsplash.com/photo-1428550590922-34c77f716ad4?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8fHwxNzAzMDc0MzIzfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=768" srcset="" sizes="" width="" height="" alt="Photo by Jeremy Ricketts" loading="lazy" />
-			</div>
-		</div>
-		<div class="col-lg-6">
-			<div class="lc-block p-3">
-				<div editable="rich">
-					<h1>Your Title goes here</h1>
-					<p class="lead">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type. Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <h2>Sobre mim</h2>     
+    <section class="py-3 py-md-5">
+        <div class="container mb-4 mb-md-5">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-10 col-xxl-8">
+                    <img class="img-fluid rounded shadow" loading="lazy" src="/assets/img/ana_about1.jpg" alt="Créditos: Fórum da Internet no Brasil 2024" />
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
-<div class="content-moragua">
-<div class="container-fluid p-0 overflow-hidden">
-	<div class="row flex-lg-row-reverse g-0 align-items-center">
-	<div class="row g-0 align-items-center">
-		<div class="col-lg-6">
-			<div class="lc-block">
-				<img class="w-100" src="https://images.unsplash.com/photo-1523572989266-8239d24ebb68?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8fHwxNzAzMDc0MzIzfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=768" srcset="" sizes="" width="" height="" alt="Photo by Photographer Frederik Trovatten" loading="lazy" />
-			</div>
-		</div>
-		<div class="col-lg-6">
-			<div class="lc-block p-3">
-				<div editable="rich">
-					<h1>Your Title goes here</h1>
-					<p class="lead">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type. Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
+<div class="content-moragua"> 
+    <div class="container overflow-hidden">
+        <div class="row gy-2 gy-md-0 justify-content-center">
+            <div class="col-12 order-md-1 col-md-8 col-xxl-6">
+                <div class="text-center text-md-start">
+                    <h2 class="display-3 fw-bold lh-1">ana carolina dias</h2>
+                    <p class="text-secondary fs-4 mb-2">Pesquisadora &amp; ativista em tech</p>
+                    <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary" />
+                    <p>I am a UX/UI designer with a passion for creating user-centric digital experiences that are both beautiful and functional. I have over 12 years of experience in the industry, and I have worked on a wide range of projects, from small startups to large enterprises.</p>
+                    <p>I believe that the best designs are those that are based on a deep understanding of the user's needs and goals. I start every project by conducting thorough user research to learn about the user's pain points, motivations, and expectations. I then use this information to create designs that are both easy to use and enjoyable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<div class="content-agua">
+
+</div>
 
 
     <!-- Include the footer -->
     <!-- _includes/footer.html -->
 <footer>
-    <div class="content-agua">
         <p>Ana Carolina, 2024.</p>
         <div class="row align-items-center">
             <a href="https://www.youtube.com/channel/UCzdN_GOPp7SFm6Yp7L2qvTg"><button class="btn-circle"><i class="fa fa-youtube"></i></button></a>
             <a href="https://linkedin.com/in/linasdias"><button class="btn-circle"><i class="fa fa-linkedin"></i></button></a>
             <a href="https://instagram.com/linasdias"><button class="btn-circle"><i class="fa fa-instagram"></i></button></a>
         </div>
-
-        <!-- Audio player container-->
-        <div id='player' style='position:fixed;'></div>
-
-        <!-- Audio player js begin-->
-        <script src="\assets\js\AudioPlayer.js"></script>
-
-        <script>
-            // test image for web notifications
-            var iconImage = null;
-
-            AP.init({
-                container:'#player',//a string containing one CSS selector
-                volume   : 0.7,
-                autoPlay : false,
-                notification: false,
-                playList: [
-                    {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
-            ]
-            });
-        </script>
-        <!-- Audio player js end-->
-    </div>
 </footer>
 </body>
+
+<!-- Audio player container-->
+<div id='player' style='position:fixed;'></div>
+
+<!-- Audio player js begin-->
+<script src="\assets\js\AudioPlayer.js"></script>
+
+<script>
+    // test image for web notifications
+    var iconImage = null;
+
+    AP.init({
+        container:'#player',//a string containing one CSS selector
+        volume   : 0.7,
+        autoPlay : false,
+        notification: false,
+        playList: [
+            {'title': 'chilling with meow meow! ฅ^•ﻌ•^ฅ', 'file': 'assets/mp3/catlofi.mp3'}
+    ]
+    });
+</script>
+<!-- Audio player js end-->
 </html>
