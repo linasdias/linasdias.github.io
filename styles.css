@@ -22,6 +22,10 @@ body {
     border: 1px solid black;
     padding: 10px;
   }
+
+  #funfacts {
+    text-align: left;
+  }
   
   table {
     border: 5px dotted lightpink;
