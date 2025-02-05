@@ -70,3 +70,8 @@ body {
     height: 100vh;  
     pointer-events: none;
   }
+
+  footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+  }
