@@ -77,7 +77,7 @@ body {
   }
 
   .vertical-gifs img {
-    display: block; /* Faz os GIFs ficarem em colunas */
-    margin: 10px auto; /* Centraliza e dá espaçamento */
-    width: 200px; /* Ajusta o tamanho */
+    display: block; 
+    margin: 10px auto; 
+    width: 200px; 
 }
