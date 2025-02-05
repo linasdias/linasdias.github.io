@@ -1,0 +1,35 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: radial-gradient(ellipse at center, #FFBED3 0%, #F9F9F9 53%, #FFC2B9 100%);
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-weight: 800;
+    color: pink;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px pink, 0 0 30px pink, 0 0 40px pink, 0 0 55px pink, 0 0 75px pink;
+  }
+  
+  table, table td, table tr {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  table {
+    border: 5px dotted lightpink;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.75em;
+  }
+  
+  h4 {
+    font-weight: normal;
+    border: 1px dashed black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0;
+  }
