@@ -55,23 +55,3 @@ body {
   a::after {
     color: #bd4f8e;
   }
-
-  /* Responsividade */
-@media (max-width: 768px) {
-    #table-main {
-        width: 90%;
-        font-size: 14px;
-    }
-
-    td {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    h4 {
-        font-size: 18px;
-    }
-}
