@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    cursor: url('normal.cur');
   }
   
   h1 {
@@ -50,6 +51,7 @@ body {
 
   a::hover {
     color: #fff;
+    cursor: url('link.cur');
   }
 
   a::after {
