@@ -32,7 +32,7 @@ body {
     border-collapse: inherit;
     width: 100%;
     max-width: 800px;
-    margin: 20px;
+    margin: 0;
   }
   
   ul {
