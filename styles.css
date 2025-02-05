@@ -71,7 +71,7 @@ body {
     pointer-events: none;
   }
 
-  footer {
-    font-family: 'Courier New', Courier, monospace;
+  #footer {
+    font-family: 'Courier New', Courier, monospace; 
     font-size: x-small;
   }
